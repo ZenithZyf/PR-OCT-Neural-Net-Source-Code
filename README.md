@@ -13,8 +13,7 @@ The csv_train command will load the training data, and the csv_classes will load
 
 ## Pre-trained model:
 
-The pre-trained model can be download from our lab website:
-- 
+The pre-trained model can be download from [Optical and Ultrasound Imaging Lab](https://opticalultrasoundimaging.wustl.edu/).
 
 ## Visualization:
 
