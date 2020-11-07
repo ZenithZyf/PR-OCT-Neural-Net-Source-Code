@@ -3,7 +3,7 @@ The source code for Zeng, Yifeng, et al. "Real-time colorectal cancer diagnosis 
 
 ![Demo](https://github.com/ZenithZyf/PR-OCT-Neural-Net-Source-Code/blob/main/PROCT_Normal_Cancer.gif)
 
-## Training Process:
+## Training:
 
 The network can be trained by running train.py. We are using a CSV dataloader which can read in annotations in CSV format. To train a network, use below command:
 
@@ -12,6 +12,12 @@ python train.py --dataset csv --csv_train train_labels.csv  --csv_classes octID.
 ```
 
 The csv_train command will load the training data, and the csv_classes will load the image classes. You can find two example dataset in the repo: "train_labels.csv" and "octID.csv". Note that csv_val command is optional, if discarded, there will be no validataion. Again, a validation example dataset is also in the repo: "val_labels.csv".
+
+One example of our training annotation is:
+
+![Demo](https://github.com/ZenithZyf/PR-OCT-Neural-Net-Source-Code/blob/main/exampleImages/train_example.png)
+
+*Note that this image is cropped for better visualization.*
 
 ## Pre-trained model:
 
@@ -25,7 +31,11 @@ To visualize the object detection result, one can use 'visualize.py':
 python visualize.py --dataset csv --csv_classes octID.csv --csv_val val_labels.csv --model model_final.pt
 ```
 
-This will visualize bounding boxes on the validation set.
+This will visualize bounding boxes on the validation set. One example of our visualizing output on a test image is:
+
+![Demo](https://github.com/ZenithZyf/PR-OCT-Neural-Net-Source-Code/blob/main/exampleImages/test_example.png)
+
+*Note that this image is cropped for better visualization.*
 
 ## Annotation and Class Mapping:
 
