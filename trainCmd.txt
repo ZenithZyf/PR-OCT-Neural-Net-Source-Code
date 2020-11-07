@@ -1,4 +1,4 @@
-python train.py --dataset csv --csv_train train_labels.csv  --csv_classes cardID.csv  --csv_val test_labels.csv
+python train.py --dataset csv --csv_train train_labels.csv  --csv_classes octID.csv  --csv_val test_labels.csv
 python train.py --dataset csv --csv_train train_labels.csv  --csv_classes octID.csv  --csv_val val_labels.csv --epochs 50 --depth 50
 
 
