@@ -1,6 +1,8 @@
 # PR-OCT-Neural-Net-Source-Code
 The source code for Zeng, Yifeng, et al. "Real-time colorectal cancer diagnosis using PR-OCT with deep learning." Theranostics 10.6 (2020): 2587.
 
+![Demo](https://github.com/ZenithZyf/PR-OCT-Neural-Net-Source-Code/blob/main/PROCT_Normal_Cancer.gif)
+
 ## Training Process:
 
 The network can be trained by running train.py. We are using a CSV dataloader which can read in annotations in CSV format. To train a network, use below command:
