@@ -1,15 +1,6 @@
 python train.py --dataset csv --csv_train train_labels.csv  --csv_classes cardID.csv  --csv_val test_labels.csv
-python train.py --dataset csv --csv_train p8train_labels.csv  --csv_classes octID.csv  --csv_val p8val_labels.csv
-python train.py --dataset csv --csv_train p8p4train_labels.csv  --csv_classes octID.csv  --csv_val p8p4val_labels.csv --epochs 50 --depth 50
-
-python train.py --dataset csv --csv_train train_Jan24.csv  --csv_classes octID.csv  --csv_val Results_Jan19_2019/pALLtrain_labels.csv --epochs 80 --depth 34
+python train.py --dataset csv --csv_train train_labels.csv  --csv_classes octID.csv  --csv_val val_labels.csv --epochs 50 --depth 50
 
 
-
-
-
-python visualize.py --dataset csv --csv_classes cardID.csv  --csv_val test_labels.csv --model model_final.pt
-python visualize_oct.py --dataset csv --csv_classes octID.csv  --csv_val p8val_labels.csv --model model_final.pt
-python visualize_oct.py --dataset csv --csv_classes octID.csv  --csv_val p8p4val_labels.csv --model model_final.pt
-
+python visualize.py --dataset csv --csv_classes octID.csv --csv_val val_labels.csv --model model_final.pt
 
