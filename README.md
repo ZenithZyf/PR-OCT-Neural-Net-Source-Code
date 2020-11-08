@@ -15,7 +15,7 @@ The csv_train command will load the training data, and the csv_classes will load
 
 One example of our training annotation is:
 
-![Demo](https://github.com/ZenithZyf/PR-OCT-Neural-Net-Source-Code/blob/main/exampleImages/train_example.png?v=4&s=100)
+![Demo](https://github.com/ZenithZyf/PR-OCT-Neural-Net-Source-Code/blob/main/exampleImages/train_example.png?v=4&s=10)
 
 *Note that this image is cropped for better visualization.*
 
