@@ -3,6 +3,19 @@ The source code for Zeng, Yifeng, Shiqi Xu, et al. "Real-time colorectal cancer 
 
 ![Demo](https://github.com/ZenithZyf/PR-OCT-Neural-Net-Source-Code/blob/main/PROCT_Normal_Cancer.gif)
 
+This is implemented using ```Pytorch```.
+
+## Required packages:
+
+Install the required packages:
+
+```
+apt-get install tk-dev python-tk
+pip install pandas
+pip install opencv-python
+pip install requests
+```
+
 ## Training:
 
 The network can be trained by running train.py. We are using a CSV dataloader which can read in annotations in CSV format. To train a network, use below command:
