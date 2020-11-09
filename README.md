@@ -1,5 +1,5 @@
 # PR-OCT-Neural-Net-Source-Code
-The source code for Zeng, Yifeng, Shiqi Xu, et al. "Real-time colorectal cancer diagnosis using PR-OCT with deep learning." Theranostics 10.6 (2020): 2587.
+The source code for Zeng, Yifeng, Shiqi Xu, et al. "Real-time colorectal cancer diagnosis using PR-OCT with deep learning." Theranostics 10.6 (2020): 2587. Please cite our publication if you find this work is helpful!
 
 ![Demo](https://github.com/ZenithZyf/PR-OCT-Neural-Net-Source-Code/blob/main/PROCT_Normal_Cancer.gif)
 
